@@ -48,6 +48,7 @@
       <activity android:name="com.hipmob.android.HipmobHelpDeskSearchActivity" android:label="@string/app_name" android:theme="@style/HipmobThemeSelector">
       </activity>
     </config-file>
-
+ <asset src="src/android/styles.xml" target="../../res/values/hipmob-styles.xml" />
+    <asset src="src/android/styles-v11.xml" target="../../res/values-v11/hipmob-styles.xml" />
   </platform>  
 </plugin>
